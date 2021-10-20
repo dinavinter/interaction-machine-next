@@ -35,12 +35,9 @@ $ yarn dev
 
 ## Deploy to vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Foutsrc%2Fnext-mui)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%dinavinter%2Finteraction-machine-next)
 
 ## Open on Gitpod
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/outsrc/next-mui)
-
-## Send comments or request
-
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/efreyreg.svg?style=social&label=Follow%20%40efreyreg)](https://twitter.com/efreyreg)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dinavinter/interaction-machine-next)
+ 
