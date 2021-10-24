@@ -108,12 +108,17 @@ export type Fetcher<R> = (path: string) => Promise<R>
 
 export function secureLoader<R>(apiUrl?: string, getToken?: () => Promise<string>): Fetcher<R> {
   return async (path: string): Promise<R> => {
+    console.log( `${apiUrl || ''}${path}` );
+    
     const token = getToken ? await getToken() : null
     const response = await axios.get<R>(`${apiUrl || ''}${path}`, {
       headers: {
         ...(token && { Authorization: `Bearer ${token}` })
       }
     })
+
+    console.log(response);
+
     return response.data
   }
 }
