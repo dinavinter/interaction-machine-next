@@ -1,0 +1,5 @@
+properties:
+  interactionId:
+    type: string
+  transactionId:
+    type: string

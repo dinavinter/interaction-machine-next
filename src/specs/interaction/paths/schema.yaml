@@ -1,0 +1,13 @@
+summary: Interaction Schema
+get:
+  operationId: InteractionSchema
+  description: schema
+  summary: Interaction Schema
+  responses:
+    '200':
+      description: Submit form schema
+      content:
+        application/json:
+          schema:
+            type: object
+            example: /signup-form.json
