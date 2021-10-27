@@ -31,12 +31,12 @@ security:
   - oAuth2Confirm:
       - interaction:confirm
 paths:
-  /create:
-    $ref: paths\create.yaml
+  /options:
+    $ref: paths\options.yaml 
+  /:
+    $ref: paths\post.yaml
   /{interactionId}/confirm:
     $ref: paths\{interactionId}@confirm.yaml
-  /schema:
-    $ref: paths\schema.yaml
   /oauth/authorize/{request_uri}:
     $ref: paths\oauth@authorize@{request_uri}.yaml
     
